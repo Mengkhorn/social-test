@@ -8,38 +8,44 @@
 <script src="https://accounts.google.com/gsi/client" async defer></script>
 
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
-  .card {
-    background: white;
-    padding: 30px;
-    width: 400px;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    text-align: center;
-  }
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
 
-  h2 {
-    margin-bottom: 20px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  #result {
-    margin-top: 20px;
-    background: #1e1e1e;
-    color: #00ff90;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 12px;
-    text-align: left;
-    overflow-x: auto;
-  }
+.card {
+  background: white;
+  padding: 30px;
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+#result {
+  margin-top: 20px;
+  background: #1e1e1e;
+  color: #00ff90;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  text-align: left;
+  max-height: 200px;
+  overflow: auto;
+}
 </style>
 </head>
 
